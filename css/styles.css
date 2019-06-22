@@ -9,7 +9,7 @@ ul {
 
 p {
   line-height: 1.5em;
-  color: gray;
+  color: #929191;
 }
 
 .container {
@@ -521,6 +521,14 @@ table {
   [class^=grid__col] + [class^=grid__col] {
     margin-left: 10px;
   }
+}
+
+.img--logo,
+.img--avatar,
+.img--frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav {

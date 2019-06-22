@@ -1,0 +1,13 @@
+// **************************************
+// Image Styles
+// **************************************
+
+
+
+
+//centers page img's
+.img--logo,
+.img--avatar,
+.img--frame{
+    @include img-center();
+}
