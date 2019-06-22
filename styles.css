@@ -1,6 +1,6 @@
 /* Error: Can't find stylesheet to import.
  *    ,
- * 12 | @import 'utilities/index';
+ * 12 |         'utilities/index',
  *    |         ^^^^^^^^^^^^^^^^^
  *    '
  *   scss/styles.scss 12:9  root stylesheet */
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 12 \2502  @import 'utilities/index';\a    \2502          ^^^^^^^^^^^^^^^^^\a    \2575 \a   scss/styles.scss 12:9  root stylesheet";
+  content: "Error: Can't find stylesheet to import.\a    \2577 \a 12 \2502          'utilities/index',\a    \2502          ^^^^^^^^^^^^^^^^^\a    \2575 \a   scss/styles.scss 12:9  root stylesheet";
 }
