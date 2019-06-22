@@ -7,7 +7,7 @@
 .nav__item {
     text-align: center;
     a:hover{
-      background-color: aqua;
+      background-color: $nav-hover-color;
       color: #fff;
       border-radius: .3em;
     }
