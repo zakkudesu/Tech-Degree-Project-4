@@ -1,16 +1,21 @@
 .nav {
     list-style: none;
+    padding: unset;
   }
 
 
 .nav__item {
     text-align: center;
+    a:hover{
+      background-color: aqua;
+      color: #fff;
+      border-radius: .3em;
+    }
   }
 
 .nav a{
     text-decoration: none;
     display: block;
-    padding: 1em;
-    color: gray;
-    border: 1px solid red;
+    padding: .8em;
+    color: $nav-font-color;
   }

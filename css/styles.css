@@ -515,16 +515,22 @@ table {
 
 .nav {
   list-style: none;
+  padding: unset;
 }
 
 .nav__item {
   text-align: center;
 }
+.nav__item a:hover {
+  background-color: aqua;
+  color: #fff;
+  border-radius: 0.3em;
+}
 
 .nav a {
   text-decoration: none;
   display: block;
-  padding: 1em;
+  padding: 0.8em;
   color: gray;
 }
 
