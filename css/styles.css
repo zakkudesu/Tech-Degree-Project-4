@@ -11,7 +11,7 @@ ul {
 
 p {
   line-height: 1.75em;
-  color: #929191;
+  color: #a3a2a2;
 }
 
 .container {
@@ -21,7 +21,7 @@ p {
 
 .link {
   text-decoration: none;
-  color: rgba(1, 215, 230, 0.986);
+  color: rgba(1, 215, 230, 0.8);
 }
 .link:hover {
   color: rgba(1, 230, 199, 0.986);
@@ -533,14 +533,32 @@ table {
   }
 }
 
-.btn--default {
+[class^=btn] {
   display: block;
   width: 100%;
   padding: 0.8em;
+  margin-bottom: 1.25em;
   border-radius: 0.3em;
-  background: rgba(1, 215, 230, 0.986);
+  border: none;
+  background: rgba(1, 215, 230, 0.8);
   text-transform: uppercase;
   color: white;
+}
+
+.btn--success {
+  background: rgba(60, 202, 60, 0.8);
+}
+
+.btn--error {
+  background: rgba(219, 117, 106, 0.8);
+}
+
+.btn--warning {
+  background: rgba(233, 105, 1, 0.8);
+}
+
+.btn--info {
+  background: rgba(133, 80, 146, 0.8);
 }
 
 .form__label--hidden {
@@ -562,6 +580,13 @@ table {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1.5em;
+}
+
+.img--frame {
+  border: 1px solid #a3a2a2;
+  padding: 1em 1em;
+  width: 100%;
 }
 
 .nav {
@@ -582,7 +607,7 @@ table {
   text-decoration: none;
   display: block;
   padding: 0.8em;
-  color: #929191;
+  color: #a3a2a2;
 }
 
 .headline--primary {
@@ -593,11 +618,12 @@ table {
 }
 
 .headline--secondary {
-  color: #929191;
+  color: #a3a2a2;
+  margin-bottom: 2em;
 }
 
 .blockquote {
-  color: #888787;
+  color: #999898;
   border-left: 0.38em solid rgba(1, 230, 199, 0.986);
   padding: 0 0.3em 0 1em;
   font-size: 1.3em;

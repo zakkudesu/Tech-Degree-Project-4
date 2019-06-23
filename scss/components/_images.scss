@@ -11,3 +11,9 @@
 .img--frame{
     @include img-center();
 }
+
+.img--frame{
+    border: 1px solid $primary-color;
+    padding: 1em 1em;
+    width: 100%;
+}

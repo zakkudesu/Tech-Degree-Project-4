@@ -2,12 +2,22 @@
 // Button Styles
 // **************************************
 
-.btn--default{
-    display: block;
-    width: 100%;
-    padding: .8em;
-    border-radius: .3em;
-    background: $tertiary-color;
-    text-transform: uppercase;
-    color: white;
+[class^=btn]{
+    @include btn-style();
+}
+
+.btn--success{
+    background: $success;
+}
+
+.btn--error{
+    background: $error;
+}
+
+.btn--warning{
+    background: $warning;
+}
+
+.btn--info{
+    background: $info;
 }
