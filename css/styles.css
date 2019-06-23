@@ -533,6 +533,16 @@ table {
   }
 }
 
+.btn--default {
+  display: block;
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 0.3em;
+  background: rgba(1, 215, 230, 0.986);
+  text-transform: uppercase;
+  color: white;
+}
+
 .form__label--hidden {
   display: none;
 }
@@ -540,7 +550,7 @@ table {
 .form__input {
   display: block;
   width: 100%;
-  margin: 1em 0 2em;
+  margin: 1.25em 0 2em;
   padding: 1em 12em 1em 1em;
   border: none;
   border-bottom: 0.3em solid rgba(1, 230, 199, 0.986);
