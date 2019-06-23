@@ -4,7 +4,7 @@
 
 *{
   box-sizing: border-box;
-  font-family: $roboto;
+  font-family: $primary-font;
 }
 
 ul{
@@ -12,13 +12,13 @@ ul{
 }
 
 p{
-  line-height: 1.5em;
+  line-height: 1.75em;
   color:$primary-color;
 }
 
 .container{
   width: 100%;
-  padding: 1em 1em;
+  padding: .5em 3em 3em 3em;
 }
 
 .link{
