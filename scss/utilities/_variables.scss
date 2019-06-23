@@ -2,8 +2,10 @@
 // Fonts
 // **************************************
 
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Roboto&display=swap');
 
-
+$roboto: 'Roboto', sans-serif;
+$lato-bold: 'Lato', sans-serif;
 
 
 
@@ -23,5 +25,5 @@ $break-l: 992px;
 // **************************************
 // Colors
 // **************************************
-$primary-text-color: rgb(146, 145, 145);
-$nav-hover-color: rgba(2, 214, 186, 0.986);
+$primary-color: rgb(146, 145, 145);
+$secondary-color: rgba(2, 214, 186, 0.986);
