@@ -16,7 +16,7 @@ p {
 
 .container {
   width: 100%;
-  padding: 0.5em 2em 2em 3em;
+  padding: 0.5em 2em 2em;
 }
 
 .link {
@@ -539,8 +539,11 @@ table {
 
 .form__input {
   display: block;
-  margin: 2em 0 0;
-  padding-bottom: 1em;
+  width: 100%;
+  margin: 1em 0 2em;
+  padding: 1em 12em 1em 1em;
+  border: none;
+  border-bottom: 0.3em solid rgba(1, 230, 199, 0.986);
 }
 
 .img--logo,
