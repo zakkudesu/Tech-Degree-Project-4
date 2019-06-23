@@ -16,7 +16,7 @@ p {
 
 .container {
   width: 100%;
-  padding: 0.5em 3em 3em 3em;
+  padding: 0.5em 2em 2em 3em;
 }
 
 .link {
@@ -531,6 +531,15 @@ table {
   [class^=grid__col] + [class^=grid__col] {
     margin-left: 10px;
   }
+}
+
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  display: block;
+  padding-bottom: 1em;
 }
 
 .img--logo,
