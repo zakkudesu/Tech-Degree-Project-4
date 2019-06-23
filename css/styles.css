@@ -539,6 +539,7 @@ table {
 
 .form__input {
   display: block;
+  margin: 2em 0 0;
   padding-bottom: 1em;
 }
 
