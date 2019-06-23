@@ -20,3 +20,12 @@ p{
   width: 100%;
   padding: 1em 1em;
 }
+
+.link{
+  text-decoration: none;
+  color: $tertiary-color;
+  &:hover{
+    color: $secondary-color;
+  }
+}
+
