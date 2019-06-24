@@ -5,8 +5,10 @@
 
 .theme__colors{
     @include btn-style();
+    //@include color-in();
 }
 
+//manually colored buttons
 .btn--success{
     background: $success;
 }
@@ -22,3 +24,4 @@
 .btn--info{
     background: $info;
 }
+
