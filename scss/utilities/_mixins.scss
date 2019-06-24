@@ -32,6 +32,14 @@
     color: white;
 }
 
+//grid-style mixin
+@mixin grid-style(){
+    padding: 0;
+    border-radius: .3em;
+    text-transform: none;
+    color: darken($primary-color, 10%);
+}
+
 // mixin for adding colors to btn and grid system
 // // @mixin color-in(){
 // //     @each $color in $grid-colors{

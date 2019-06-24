@@ -28,23 +28,34 @@ $break-l: 992px;
 // Colors
 // **************************************
 $primary-color: rgb(163, 162, 162);
-$secondary-color: rgba(1, 230, 199, 0.986);
-$tertiary-color: rgba(1, 215, 230, 0.8);
+$secondary-color: rgba(2, 250, 217, 0.986);
+$tertiary-color: rgba(1, 215, 230, 0.7);
 
 //Button colors
-$default: rgba(1, 215, 230, 0.8);
-$success:rgba(60, 202, 60, .8);
-$error:rgba(219, 117, 106, .8);
-$warning:rgba(233, 105, 1, 0.8);
-$info:rgba(133, 80, 146, .8);
+$default: rgba(1, 215, 230, 0.7);
+$success:rgba(60, 202, 60, .7);
+$error:rgba(219, 117, 106, .7);
+$warning:rgba(233, 105, 1, 0.7);
+$info:rgba(159, 95, 175, 0.7);
 
-//maps
-$grid-colors: (
-'col--12': $secondary-color,
-'col--6': darken($tertiary-color, 10%),
-'col--4': lighten($tertiary-color, 10%),
-'col--3': rgba(162, 97, 179, 0.8),
-'col--5': rgba(69, 238, 69, 0.8),
-'col--7': rgba(252, 140, 128, 0.8),
-'col--8': rgba(253, 129, 28, 0.8),
-);
+
+//Grid system colors
+$col-6: darken($tertiary-color, 10%);
+$col-4: lighten($tertiary-color, 10%);
+$col-3: rgba(208, 155, 219, 0.7);
+$col-5: rgba(60, 211, 60, 0.7);
+$col-7: lighten($error, 5%);
+$col-8: rgba(253, 111, 16, 0.7);
+
+//
+
+//map for grid colors
+// $grid-colors: (
+// 'col--12': $secondary-color,
+// 'col--6': darken($tertiary-color, 10%),
+// 'col--4': lighten($tertiary-color, 10%),
+// 'col--3': rgba(162, 97, 179, 0.8),
+// 'col--5': rgba(69, 238, 69, 0.8),
+// 'col--7': rgba(252, 140, 128, 0.8),
+// 'col--8': rgba(253, 129, 28, 0.8),
+// );
