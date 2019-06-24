@@ -533,7 +533,7 @@ table {
   }
 }
 
-[class^=btn] {
+.theme__colors {
   display: block;
   width: 100%;
   padding: 0.8em;
