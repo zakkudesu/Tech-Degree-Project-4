@@ -2,28 +2,23 @@
 // Button Styles
 // **************************************
 
-// [class^=btn]{
-//     @include btn-style();
-// }
-
-$colors: ($secondary-color, $tertiary-color, $tertiary-color, $info, $success, $error, $warning);
 
 .theme__colors{
     @include btn-style();
 }
 
-.btn--success{
-    background: $success;
-}
+// .btn--success{
+//     background: $success;
+// }
 
-.btn--error{
-    background: $error;
-}
+// .btn--error{
+//     background: $error;
+// }
 
-.btn--warning{
-    background: $warning;
-}
+// .btn--warning{
+//     background: $warning;
+// }
 
-.btn--info{
-    background: $info;
-}
+// .btn--info{
+//     background: $info;
+// }

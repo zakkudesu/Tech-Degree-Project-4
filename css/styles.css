@@ -545,22 +545,6 @@ table {
   color: white;
 }
 
-.btn--success {
-  background: rgba(60, 202, 60, 0.8);
-}
-
-.btn--error {
-  background: rgba(219, 117, 106, 0.8);
-}
-
-.btn--warning {
-  background: rgba(233, 105, 1, 0.8);
-}
-
-.btn--info {
-  background: rgba(133, 80, 146, 0.8);
-}
-
 .form__label--hidden {
   display: none;
 }
