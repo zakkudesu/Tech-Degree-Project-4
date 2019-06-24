@@ -28,8 +28,8 @@ $break-l: 992px;
 // Colors
 // **************************************
 $primary-color: rgb(163, 162, 162);
-$secondary-color: rgba(2, 250, 217, 0.986);
-$tertiary-color: rgba(1, 215, 230, 0.7);
+$secondary-color: rgba(45, 201, 180, 0.7);
+$tertiary-color: rgba(32, 209, 194, 0.8);
 
 //Button colors
 $default: rgba(1, 215, 230, 0.7);
@@ -40,12 +40,12 @@ $info:rgba(159, 95, 175, 0.7);
 
 
 //Grid system colors
-$col-6: darken($tertiary-color, 10%);
+$col-6: rgba(26, 140, 175, 0.7);
 $col-4: lighten($tertiary-color, 10%);
 $col-3: rgba(208, 155, 219, 0.7);
-$col-5: rgba(60, 211, 60, 0.7);
+$col-5: rgba(60, 211, 60, .65);
 $col-7: lighten($error, 5%);
-$col-8: rgba(253, 111, 16, 0.7);
+$col-8: rgba(253, 111, 16, 0.6);
 
 //
 
