@@ -11,9 +11,17 @@ $secondary-font: 'Lato', sans-serif;
 // **************************************
 // Breakpoints
 // **************************************
+
 $break-s: 576px;
 $break-m: 768px;
 $break-l: 992px;
+
+//map for breakpoints
+$breakpoints: (
+    's': 576px,
+    'm': 768px,
+    'l': 992px,
+);
 
 
 // **************************************
@@ -23,14 +31,14 @@ $primary-color: rgb(163, 162, 162);
 $secondary-color: rgba(1, 230, 199, 0.986);
 $tertiary-color: rgba(1, 215, 230, 0.8);
 
-$btns: (
-'default': rgba(1, 215, 230, 0.8),
-'success':rgba(60, 202, 60, .8),
-'error':rgba(219, 117, 106, .8),
-'warning':rgba(233, 105, 1, 0.8),
-'info':rgba(133, 80, 146, .8),
-);
+//Button colors
+$default: rgba(1, 215, 230, 0.8);
+$success:rgba(60, 202, 60, .8);
+$error:rgba(219, 117, 106, .8);
+$warning:rgba(233, 105, 1, 0.8);
+$info:rgba(133, 80, 146, .8);
 
+//maps
 $grid-colors: (
 'col--12': $secondary-color,
 'col--6': darken($tertiary-color, 10%),

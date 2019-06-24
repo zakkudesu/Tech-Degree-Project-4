@@ -1,5 +1,33 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato:700|Roboto&display=swap");
+.theme__color {
+  background: "col--12" rgba(1, 230, 199, 0.986);
+}
+
+.theme__color {
+  background: "col--6" rgba(1, 168, 179, 0.8);
+}
+
+.theme__color {
+  background: "col--4" rgba(28, 239, 254, 0.8);
+}
+
+.theme__color {
+  background: "col--3" rgba(162, 97, 179, 0.8);
+}
+
+.theme__color {
+  background: "col--5" rgba(69, 238, 69, 0.8);
+}
+
+.theme__color {
+  background: "col--7" rgba(252, 140, 128, 0.8);
+}
+
+.theme__color {
+  background: "col--8" rgba(253, 129, 28, 0.8);
+}
+
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -543,6 +571,22 @@ table {
   background: rgba(1, 215, 230, 0.8);
   text-transform: uppercase;
   color: white;
+}
+
+.btn--success {
+  background: rgba(60, 202, 60, 0.8);
+}
+
+.btn--error {
+  background: rgba(219, 117, 106, 0.8);
+}
+
+.btn--warning {
+  background: rgba(233, 105, 1, 0.8);
+}
+
+.btn--info {
+  background: rgba(133, 80, 146, 0.8);
 }
 
 .form__label--hidden {
