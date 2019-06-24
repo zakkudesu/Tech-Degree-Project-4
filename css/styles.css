@@ -546,19 +546,19 @@ table {
 }
 
 .btn--success {
-  background: rgba(60, 202, 60, 0.7);
+  background: rgba(60, 202, 60, 0.8);
 }
 
 .btn--error {
-  background: rgba(219, 117, 106, 0.7);
+  background: #db756a;
 }
 
 .btn--warning {
-  background: rgba(233, 105, 1, 0.7);
+  background: #fd7200;
 }
 
 .btn--info {
-  background: rgba(159, 95, 175, 0.7);
+  background: rgba(124, 79, 156, 0.87);
 }
 
 .grid__row .grid__col--12.theme__colors {
@@ -587,7 +587,7 @@ table {
   border-radius: 0.3em;
   text-transform: none;
   color: #8a8888;
-  background: rgba(66, 226, 212, 0.8);
+  background: rgba(88, 230, 235, 0.952);
   margin-bottom: -0.1em;
 }
 
@@ -617,7 +617,7 @@ table {
   border-radius: 0.3em;
   text-transform: none;
   color: #8a8888;
-  background: rgba(224, 136, 127, 0.7);
+  background: #e59b93;
   margin-bottom: -0.1em;
 }
 
