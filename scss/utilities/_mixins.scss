@@ -32,17 +32,36 @@
     color: white;
 }
 
-// //grid-style mixin
-// @mixin grid-style(){
-//     padding: 0;
-//     border-radius: .3em;
-//     text-transform: none;
-//     color: rgba(70, 68, 68, .85);
-// }
+// **************************************
+// Flexbox and Media queries mixins
+// **************************************
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-// mixin for adding colors to btn and grid system
-// // @mixin color-in(){
-// //     @each $color in $grid-colors{
-//        background: $color;
-//     }
-// // }
+}
+
+@mixin flex-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    // justify-content: start;
+    align-items: flex-start;
+}
+
+@mixin media-queries($break) {
+    $value: map-get($breakpoints, $break);
+    $small: map-get($breakpoints,'s');
+
+    @if $value < $small {
+        @media(max-width: $value){
+            @content;
+        }
+    }
+    @else {
+        @media(min-width:$value){
+            @content;
+        }
+    }
+}

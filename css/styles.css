@@ -666,6 +666,15 @@ table {
   list-style: none;
   padding: unset;
 }
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
 
 .nav__item {
   text-align: center;

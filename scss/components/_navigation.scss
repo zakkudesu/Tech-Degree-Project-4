@@ -5,6 +5,10 @@
 .nav {
     list-style: none;
     padding: unset;
+    @include media-queries('m') {
+      @include flex-row;
+      justify-content: center
+    }
   }
 
 
