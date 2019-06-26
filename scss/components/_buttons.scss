@@ -26,14 +26,18 @@
 
 //color grid system with @each loop and list 
 .theme__colors.grid__col {
-
+    // @include grid-style();
 	@each $color in $grid-colors{
         $i: index($grid-colors, $color);
         
             &--#{$i} {
-            // add our background color here
+            // add our background color here:
             background-color:$color;
+            
+            //change from btn styles here:
             margin-bottom: -.3em;
+            text-transform: none;
+            color: rgba(97, 96, 96, 0.85)
         } 
     }
 }

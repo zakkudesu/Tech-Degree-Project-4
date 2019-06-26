@@ -564,50 +564,74 @@ table {
 .theme__colors.grid__col--1 {
   background-color: red;
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--2 {
   background-color: blue;
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--3 {
-  background-color: rgba(162, 97, 179, 0.8);
+  background-color: rgba(182, 134, 194, 0.6);
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--4 {
-  background-color: rgba(1, 215, 230, 0.7);
+  background-color: rgba(1, 215, 230, 0.6);
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--5 {
-  background-color: rgba(69, 238, 69, 0.8);
+  background-color: rgba(60, 211, 60, 0.6);
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--6 {
-  background-color: rgba(25, 165, 153, 0.8);
+  background-color: #39aab9;
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--7 {
-  background-color: rgba(252, 140, 128, 0.8);
+  background-color: rgba(228, 127, 116, 0.6);
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--8 {
-  background-color: rgba(253, 129, 28, 0.8);
+  background-color: rgba(235, 120, 26, 0.6);
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--9 {
   background-color: rgba(45, 201, 180, 0.7);
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--10 {
   background-color: pink;
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--11 {
   background-color: teal;
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 .theme__colors.grid__col--12 {
-  background-color: rgba(32, 209, 194, 0.8);
+  background-color: rgba(35, 223, 207, 0.8);
   margin-bottom: -0.3em;
+  text-transform: none;
+  color: rgba(97, 96, 96, 0.85);
 }
 
 .form__label--hidden {

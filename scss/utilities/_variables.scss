@@ -41,16 +41,16 @@ $info:rgba(124, 79, 156, 0.87);
 
 //list for grid colors
 $grid-colors : (
-red,
-blue,
-rgba(226, 172, 240, 0.8),
-rgba(1, 215, 230, 0.7),
-rgba(60, 211, 60, 0.8),
-darken($tertiary-color, 10%),
-rgba(252, 140, 128, 0.8),
-rgba(253, 129, 28, 0.8),
+red, //not included 
+blue, //not included
+rgba(182, 134, 194, 0.6),
+rgba(1, 215, 230, 0.6),
+rgba(60, 211, 60, 0.6),
+rgb(57, 170, 185),
+rgba(228, 127, 116, 0.6),
+rgba(235, 120, 26, 0.6),
 $secondary-color,
-pink,
-teal,
-lighten($tertiary-color, 10%),
+pink, //not included
+teal, //not included
+rgba(35, 223, 207, 0.8),
 );
