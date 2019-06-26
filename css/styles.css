@@ -537,8 +537,8 @@ table {
   display: block;
   width: 100%;
   padding: 0.8em;
-  margin-bottom: 1.25em;
-  border-radius: 0.3em;
+  margin-bottom: 1.5em;
+  border-radius: 0.5em;
   border: none;
   background: rgba(32, 209, 194, 0.8);
   text-transform: uppercase;
@@ -561,74 +561,37 @@ table {
   background: rgba(124, 79, 156, 0.87);
 }
 
-.grid__row .grid__col--12.theme__colors {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  border-radius: 0.3em;
-  text-transform: none;
-  color: #8a8888;
-  background: rgba(45, 201, 180, 0.7);
-  margin-bottom: -0.1em;
+.theme__colors.grid__col {
+  display: block;
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1.5em;
+  border-radius: 0.5em;
+  border: none;
+  background: rgba(32, 209, 194, 0.8);
+  text-transform: uppercase;
+  color: white;
 }
-
-.grid__row .grid__col--6.theme__colors {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  border-radius: 0.3em;
-  text-transform: none;
-  color: #8a8888;
-  background: rgba(26, 140, 175, 0.7);
-  margin-bottom: -0.1em;
+.theme__colors.grid__col--1 {
+  background-color: rgba(45, 201, 180, 0.7);
 }
-
-.grid__row .grid__col--4.theme__colors {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  border-radius: 0.3em;
-  text-transform: none;
-  color: #8a8888;
-  background: rgba(88, 230, 235, 0.952);
-  margin-bottom: -0.1em;
+.theme__colors.grid__col--2 {
+  background-color: rgba(25, 165, 153, 0.8);
 }
-
-.grid__row .grid__col--3.theme__colors {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  border-radius: 0.3em;
-  text-transform: none;
-  color: #8a8888;
-  background: rgba(208, 155, 219, 0.7);
-  margin-bottom: -0.1em;
+.theme__colors.grid__col--3 {
+  background-color: rgba(66, 226, 212, 0.8);
 }
-
-.grid__row .grid__col--5.theme__colors {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  border-radius: 0.3em;
-  text-transform: none;
-  color: #8a8888;
-  background: rgba(60, 211, 60, 0.65);
-  margin-bottom: -0.1em;
+.theme__colors.grid__col--4 {
+  background-color: rgba(162, 97, 179, 0.8);
 }
-
-.grid__row .grid__col--7.theme__colors {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  border-radius: 0.3em;
-  text-transform: none;
-  color: #8a8888;
-  background: #e59b93;
-  margin-bottom: -0.1em;
+.theme__colors.grid__col--5 {
+  background-color: rgba(69, 238, 69, 0.8);
 }
-
-.grid__row .grid__col--8.theme__colors {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  border-radius: 0.3em;
-  text-transform: none;
-  color: #8a8888;
-  background: rgba(253, 111, 16, 0.6);
-  margin-bottom: -0.1em;
+.theme__colors.grid__col--6 {
+  background-color: rgba(252, 140, 128, 0.8);
+}
+.theme__colors.grid__col--7 {
+  background-color: rgba(253, 129, 28, 0.8);
 }
 
 .form__label--hidden {
