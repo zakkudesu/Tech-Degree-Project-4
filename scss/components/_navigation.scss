@@ -6,7 +6,7 @@
     list-style: none;
     padding: unset;
     @include media-queries('m') {
-      @include flex-row;
+    @include flex-row;
       justify-content: center
     }
   }
