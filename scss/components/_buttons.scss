@@ -7,6 +7,7 @@
     @include btn-style();
 }
 
+//color buttons with sass map
 .btn {
     @each $key, $color in $button-colors {
         //combined selector
@@ -34,7 +35,7 @@
 //     background: $info;
 // }
 
-//color grid system with @each loop and list 
+//color grid system with @each loop and sass list 
 .theme__colors.grid__col {
     // @include grid-style();
 	@each $color in $grid-colors{
