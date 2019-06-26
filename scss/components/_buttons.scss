@@ -2,7 +2,7 @@
 // Button Styles
 // **************************************
 
-
+// btn style mixin
 .theme__colors{
     @include btn-style();
 }
@@ -24,58 +24,8 @@
     background: $info;
 }
 
-// //manually colored grid system
-// .grid__row 
-// .grid__col--12.theme__colors{
-//     @include grid-style();
-//     background: $secondary-color;
-//     margin-bottom: -.1em;
-// }
-
-// .grid__row 
-// .grid__col--6.theme__colors{
-//     @include grid-style();
-//     background: $col-6;
-//     margin-bottom: -.1em;
-// }
-
-// .grid__row 
-// .grid__col--4.theme__colors{
-//     @include grid-style();
-//     background: $col-4;
-//     margin-bottom: -.1em;
-// }
-
-// .grid__row 
-// .grid__col--3.theme__colors{
-//     @include grid-style();
-//     background: $col-3;
-//     margin-bottom: -.1em;
-// }
-
-// .grid__row 
-// .grid__col--5.theme__colors{
-//     @include grid-style();
-//     background: $col-5;
-//     margin-bottom: -.1em;
-// }
-
-// .grid__row 
-// .grid__col--7.theme__colors{
-//     @include grid-style();
-//     background: $col-7;
-//     margin-bottom: -.1em;
-// }
-
-// .grid__row 
-// .grid__col--8.theme__colors{
-//     @include grid-style();
-//     background: $col-8;
-//     margin-bottom: -.1em;
-// }
-
+//color grid system with @each loop and list 
 .theme__colors.grid__col {
-    @include btn-style();
 
 	@each $color in $grid-colors{
         $i: index($grid-colors, $color);
@@ -83,6 +33,7 @@
             &--#{$i} {
             // add our background color here
             background-color:$color;
+            margin-bottom: -.1em;
         } 
     }
 }

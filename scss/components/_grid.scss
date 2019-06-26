@@ -15,6 +15,7 @@
     padding: 1em 10px;
     display: flex;
     flex-direction: column;
+    // margin-bottom: -1.8em;
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @media (min-width: 768px) {
