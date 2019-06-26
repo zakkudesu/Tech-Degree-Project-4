@@ -545,20 +545,20 @@ table {
   color: white;
 }
 
+.btn--default {
+  background-color: rgba(82, 211, 243, 0.863);
+}
 .btn--success {
-  background: rgba(60, 202, 60, 0.8);
+  background-color: rgba(60, 202, 60, 0.8);
 }
-
 .btn--error {
-  background: #db756a;
+  background-color: #db756a;
 }
-
 .btn--warning {
-  background: #fd7200;
+  background-color: #fd7200;
 }
-
 .btn--info {
-  background: rgba(124, 79, 156, 0.87);
+  background-color: rgba(124, 79, 156, 0.87);
 }
 
 .theme__colors.grid__col--1 {

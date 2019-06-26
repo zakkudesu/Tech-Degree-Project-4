@@ -31,15 +31,16 @@ $primary-color: rgb(163, 162, 162);
 $secondary-color: rgba(45, 201, 180, 0.7);
 $tertiary-color: rgba(32, 209, 194, 0.8);
 
-//Button colors
-$default: rgba(82, 211, 243, 0.863);
-$success:rgba(60, 202, 60, .8);
-$error:rgba(219, 117, 106);
-$warning:rgb(253, 114, 0);
-$info:rgba(124, 79, 156, 0.87);
+//Button colors map
+$button-colors: (
+default: rgba(82, 211, 243, 0.863),
+success:rgba(60, 202, 60, .8),
+error:rgba(219, 117, 106),
+warning:rgb(253, 114, 0),
+info:rgba(124, 79, 156, 0.87)
+);
 
-
-//list for grid colors
+//List for grid colors
 $grid-colors : (
 red, //not included 
 blue, //not included

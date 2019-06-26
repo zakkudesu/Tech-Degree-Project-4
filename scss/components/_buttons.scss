@@ -7,22 +7,32 @@
     @include btn-style();
 }
 
-//manually colored buttons
-.btn--success{
-    background: $success;
+.btn {
+    @each $key, $color in $button-colors {
+        //combined selector
+        &--#{$key} {
+            //background color from map's value
+            background-color: $color;   
+        }
+    }
 }
 
-.btn--error{
-    background: $error;
-}
+// //manually colored buttons
+// .btn--success{
+//     background: $success;
+// }
 
-.btn--warning{
-    background: $warning;
-}
+// .btn--error{
+//     background: $error;
+// }
 
-.btn--info{
-    background: $info;
-}
+// .btn--warning{
+//     background: $warning;
+// }
+
+// .btn--info{
+//     background: $info;
+// }
 
 //color grid system with @each loop and list 
 .theme__colors.grid__col {
