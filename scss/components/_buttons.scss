@@ -17,11 +17,14 @@
         }
     }
 
-    @include media-queries{
-        @include flex-row;
-    }
 }
 
+@media(min-width:769px){
+.grid__col--12{
+    display:flex;
+    margin-right: 1em;
+    }
+}
 
 //Color grid system with @each loop and sass list 
 .theme__colors.grid__col {

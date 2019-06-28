@@ -560,12 +560,13 @@ table {
 .btn--info {
   background-color: rgba(124, 79, 156, 0.87);
 }
-@media (min-width: 768px) {
-  .btn {
-    flex-direction: row;
+
+@media (min-width: 769px) {
+  .grid__col--12 {
+    display: flex;
+    margin-right: 1em;
   }
 }
-
 .theme__colors.grid__col--1 {
   background-color: red;
   margin-bottom: -0.3em;
