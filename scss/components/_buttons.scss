@@ -28,7 +28,11 @@
 @media(min-width:769px){
     .grid__col--12{
     display:flex; 
-    padding: 1em 1em 2em 1em;
+    }
+
+    .centered{
+        margin-left: auto;
+        margin-right: auto;
     }
 
     // .btn--default,

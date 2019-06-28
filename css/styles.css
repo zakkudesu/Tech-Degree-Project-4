@@ -589,7 +589,11 @@ table {
 @media (min-width: 769px) {
   .grid__col--12 {
     display: flex;
-    padding: 1em 1em 2em 1em;
+  }
+
+  .centered {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .theme__colors.grid__col--1 {
@@ -737,7 +741,7 @@ table {
   color: #a3a2a2;
   margin-bottom: 2em;
   margin-top: 0;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 .blockquote {
