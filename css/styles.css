@@ -548,23 +548,48 @@ table {
 .btn--default {
   background-color: rgba(82, 211, 243, 0.863);
 }
+@media (min-width: 769px) {
+  .btn--default {
+    margin: 0 1em 0 0;
+  }
+}
 .btn--success {
   background-color: rgba(60, 202, 60, 0.8);
+}
+@media (min-width: 769px) {
+  .btn--success {
+    margin: 0 1em 0 0;
+  }
 }
 .btn--error {
   background-color: #db756a;
 }
+@media (min-width: 769px) {
+  .btn--error {
+    margin: 0 1em 0 0;
+  }
+}
 .btn--warning {
   background-color: #fd7200;
 }
+@media (min-width: 769px) {
+  .btn--warning {
+    margin: 0 1em 0 0;
+  }
+}
 .btn--info {
   background-color: rgba(124, 79, 156, 0.87);
+}
+@media (min-width: 769px) {
+  .btn--info {
+    margin: 0 1em 0 0;
+  }
 }
 
 @media (min-width: 769px) {
   .grid__col--12 {
     display: flex;
-    margin-right: 1em;
+    padding: 1em 1em 2em 1em;
   }
 }
 .theme__colors.grid__col--1 {
