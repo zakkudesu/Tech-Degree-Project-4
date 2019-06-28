@@ -673,9 +673,13 @@ table {
   display: block;
   width: 100%;
   margin: 1.25em 0 2em;
-  padding: 1em 12em 1em 1em;
+  padding: 1em;
   border: none;
   border-bottom: 0.3em solid rgba(45, 201, 180, 0.7);
+}
+
+.form {
+  margin: 0 1em;
 }
 
 .img--logo,
@@ -733,6 +737,7 @@ table {
 .headline--secondary {
   color: #a3a2a2;
   margin-bottom: 2em;
+  margin-top: 0;
 }
 
 .blockquote {
