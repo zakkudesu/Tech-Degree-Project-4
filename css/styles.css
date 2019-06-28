@@ -697,7 +697,8 @@ table {
 
 .img--frame {
   border: 1px solid #a3a2a2;
-  padding: 1em 1em;
+  padding: 1em;
+  margin-bottom: 2em;
 }
 
 .nav {
@@ -741,7 +742,6 @@ table {
   color: #a3a2a2;
   margin-bottom: 2em;
   margin-top: 0;
-  padding-top: 2em;
 }
 
 .blockquote {
