@@ -14,7 +14,8 @@
         &--#{$key} {
             //background color from map's value
             background-color: $color;   
-            @media(min-width:$break-m){
+            // @media(min-width:$break-m)
+            @include media-queries('m'){
                 margin-right: 1.5em;
             }
         }

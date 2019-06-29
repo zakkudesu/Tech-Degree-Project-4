@@ -25,7 +25,8 @@
 }
 
 .card{
-    @media(min-width:$break-m){
+    // @media(min-width:$break-m)
+    @include media-queries('m'){
         padding-right: 3em;
     }
 }
