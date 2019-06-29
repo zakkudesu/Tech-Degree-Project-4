@@ -23,3 +23,9 @@
     font-style: oblique;
     line-height: 1.35em;
 }
+
+.card{
+    @media(min-width:$break-m){
+        padding-right: 3em;
+    }
+}
