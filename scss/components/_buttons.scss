@@ -14,7 +14,7 @@
         &--#{$key} {
             //background color from map's value
             background-color: $color;   
-            @media(min-width:769px){
+            @media(min-width:$break-m){
                 margin-right: 1.5em;
             }
         }
@@ -25,7 +25,7 @@
 }
 
 //change button section to row
-@media(min-width:769px){
+@media(min-width:$break-m){
     .grid__col--12{
     display:flex; 
     }
@@ -34,16 +34,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
-    // .btn--default,
-    // .btn--success,
-    // .btn--error,
-    // .btn--warning,
-    // .btn--info {
-    // width: 80%;
-    // margin: 0 1em;
-    // }
-
 }
 
 //Color grid system with @each loop and sass list 

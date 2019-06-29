@@ -1,32 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato:700|Roboto&display=swap");
-* {
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-ul {
-  list-style: none;
-}
-
-p {
-  line-height: 1.75em;
-  color: #a3a2a2;
-}
-
-.container {
-  width: 100%;
-  padding: 0.5em 2em 2em;
-}
-
-.link {
-  text-decoration: none;
-  color: rgba(32, 209, 194, 0.8);
-}
-.link:hover {
-  color: rgba(45, 201, 180, 0.7);
-}
-
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -396,6 +369,41 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: 1.75em;
+  color: #a3a2a2;
+}
+
+.container {
+  width: 100%;
+  padding: 0.5em 2em 2em;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 0 0;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(32, 209, 194, 0.8);
+}
+.link:hover {
+  color: rgba(45, 201, 180, 0.7);
+}
+
 .grid__row {
   padding: 1em 10px;
   display: flex;
@@ -548,7 +556,7 @@ table {
 .btn--default {
   background-color: rgba(82, 211, 243, 0.863);
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--default {
     margin-right: 1.5em;
   }
@@ -556,7 +564,7 @@ table {
 .btn--success {
   background-color: rgba(60, 202, 60, 0.8);
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--success {
     margin-right: 1.5em;
   }
@@ -564,7 +572,7 @@ table {
 .btn--error {
   background-color: #db756a;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--error {
     margin-right: 1.5em;
   }
@@ -572,7 +580,7 @@ table {
 .btn--warning {
   background-color: #fd7200;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--warning {
     margin-right: 1.5em;
   }
@@ -580,13 +588,13 @@ table {
 .btn--info {
   background-color: rgba(124, 79, 156, 0.87);
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--info {
     margin-right: 1.5em;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .grid__col--12 {
     display: flex;
   }
