@@ -1,13 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato:700|Roboto&display=swap");
-.nav a {
-  text-decoration: none;
-  color: rgba(32, 209, 194, 0.8);
-}
-.nav a:hover {
-  color: rgba(45, 201, 180, 0.7);
-}
-
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -731,9 +723,6 @@ p {
   }
 }
 
-.nav__item {
-  text-align: center;
-}
 .nav__item a:hover {
   background-color: rgba(45, 201, 180, 0.7);
   color: #fff;
@@ -745,6 +734,7 @@ p {
   padding: 1.1em;
   color: #a3a2a2;
   font-size: 110%;
+  text-decoration: none;
 }
 
 .headline--primary {

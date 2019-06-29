@@ -13,7 +13,6 @@
 
 
 .nav__item {
-    text-align: center;
     a:hover{
       background-color: $secondary-color;
       color: #fff;
@@ -26,4 +25,5 @@
   padding: 1.1em;
   color: $primary-color;
   font-size: 110%;
+  text-decoration: none;
 }
