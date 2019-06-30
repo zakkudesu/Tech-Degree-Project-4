@@ -730,6 +730,7 @@ p {
 }
 
 .nav a {
+  text-align: center;
   display: block;
   padding: 1.1em;
   color: #a3a2a2;
@@ -761,7 +762,7 @@ p {
 
 @media (min-width: 768px) {
   .card {
-    padding-right: 2em;
+    padding-right: 3em;
   }
 }
 
