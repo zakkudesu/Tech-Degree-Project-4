@@ -26,7 +26,6 @@
 }
 
 //change button section to row
-// @media(min-width:$break-m){
     .grid__col--12{
     @include media-queries('m'){
     display:flex; 
@@ -40,7 +39,6 @@
         }
     }
 
-// }
 
 //Color grid system with @each loop and sass list 
 .theme__colors.grid__col {
