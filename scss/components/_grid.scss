@@ -18,7 +18,8 @@
     // margin-bottom: -1.8em;
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    // @media (min-width: 768px) 
+    @include media-queries('m'){
       flex-direction: row;
       padding-bottom: 2.5em;
     }

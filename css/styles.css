@@ -599,12 +599,15 @@ p {
   .grid__col--12 {
     display: flex;
   }
+}
 
+@media (min-width: 768px) {
   .centered {
     margin-left: auto;
     margin-right: auto;
   }
 }
+
 .theme__colors.grid__col--1 {
   background-color: red;
   margin-bottom: -0.3em;

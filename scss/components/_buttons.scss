@@ -26,16 +26,21 @@
 }
 
 //change button section to row
-@media(min-width:$break-m){
+// @media(min-width:$break-m){
     .grid__col--12{
+    @include media-queries('m'){
     display:flex; 
+        }
     }
 
     .centered{
+    @include media-queries('m'){
         margin-left: auto;
         margin-right: auto;
+        }
     }
-}
+
+// }
 
 //Color grid system with @each loop and sass list 
 .theme__colors.grid__col {
